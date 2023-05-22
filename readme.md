@@ -20,7 +20,7 @@ NV UP DI PL NZ NA PO NC
 - Overflow of = **OV** (OVerflow) **NV** (No oVerflow) 
 - Direction df = **DN** (decrement) **UP** (increment) 
 - Interrupt if = **EI** (enabled) **DI** (disabled) 
-- Sign sf = **NG** (Negative) PL (Positive) 
+- Sign sf = **NG** (Negative) **PL** (Positive) 
 - Zero zf = **ZR** (Zero) NZ (Not Zero) 
 - Aux Carry af = **AC** (auxiliary carry) **NA** (No Ac) 
 - Parity pf = **PE** (even) **PO** (odd) 
