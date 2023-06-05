@@ -3,8 +3,8 @@
         section .text
 
 ; multiplicación tamaño byte
-        mov     AL, 5d
-        mov     BL, 5d
+        mov     AL, 250d
+        mov     BL, 250d
         mul     BL    
 
 ; multiplicación tamaño word

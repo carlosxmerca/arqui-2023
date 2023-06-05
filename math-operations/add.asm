@@ -3,8 +3,8 @@
         section .text
 
 ; suma usando registros
-        mov     AL, 8d
-        mov     BL, 6d
+        mov     AL, 200d
+        mov     BL, 100d
         add     AL, BL
 
 ; suma usando celda de memoria
