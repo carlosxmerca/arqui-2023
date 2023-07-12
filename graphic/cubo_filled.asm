@@ -25,6 +25,24 @@
         add CX, 5h      ; densidad
         cmp CX, 200h
         jle cols
+
+    mov CX, 97h     ; columna donde se pondra el punto 
+    mov DX, 90h     ; fila donde se pondra el punto
+    cols_inner:
+        rows_inner:
+            mov AH, 0Ch
+            mov AL, 0Fh  ; blanco
+            ;mov AL, 0Ch    ; rojo 
+            int 10h
+
+            add DX, 8h  ; densidad
+            cmp DX, 100h
+            jle rows_inner
+        
+        mov DX, 90h
+        add CX, 1h      ; densidad
+        cmp CX, 195h
+        jle cols_inner
         
     read_char:
         mov AH, 00h
